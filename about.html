@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+       
+   .paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+   }
+   .text1, .text2{
+    border: 1px solid gray;
+    flex:1;
+    padding: 20px;
+    margin: 20px 60px;
+    font-size: 25px;
+    background: #d6d6d6;
+    font-family: sans-serif ;
+   }
+  h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;    
+    color:#1e261a;
+    text-align: center;
+    font-size: 85px;
+   }
+.link{
+    font-size: 28px;
+    color: #6e7f6c;
+    text-align:center;
+}
+.link2{
+    font-size: 28px;
+    color: #6e7f6c;
+    text-align:left;
+}
+.link:hover, .link2:hover{
+    color:#1e261a;
+    text-decoration:dotted;
+}
+.link:visited, .link2:visited{
+color: blueviolet;
+}
+h2{
+    font-size:38px;
+    text-align: center;
+    color: gray;
+}
+.sticky{
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
+}
+    </style>
+</head>
+<body>
+    <div class="sticky">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Edom</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="about.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+   </div> 
+    <h1 class="title">About Me</h1>
+    <h2> Software Engineering Student from Ethiopia 🇪🇹</h2>
+    <div class="paragraph"> 
+              
+        <p class="text1">
+        Auxerunt haec vulgi sordidioris audaciam, quod cum ingravesceret penuria commeatuum, famis et furoris inpulsu Eubuli cuiusdam inter suos clari domum ambitiosam ignibus subditis inflammavit rectoremque ut sibi iudicio imperiali addictum calcibus incessens et pugnis conculcans seminecem laniatu miserando discerpsit. post cuius lacrimosum interitum in unius exitio quisque imaginem periculi sui considerans documento recenti similia formidabat.
+
+Haec et huius modi quaedam innumerabilia ultrix facinorum impiorum bonorumque praemiatrix aliquotiens operatur Adrastia atque utinam semper quam vocabulo duplici etiam Nemesim appellamus: ius quoddam sublime numinis efficacis, humanarum mentium opinione lunari circulo superpositum, vel ut definiunt alii, substantialis tutela generali potentia partilibus praesidens fatis, quam theologi veteres fingentes Iustitiae filiam ex abdita quadam aeternitate tradunt omnia despectare terrena.
+
+Abusus enim multitudine hominum, quam tranquillis in rebus diutius rexit, ex agrestibus habitaculis urbes construxit multis opibus firmas et viribus.
+</p>
+
+    <p class="text2">
+    quarum ad praesens pleraeque licet Graecis nominibus appellentur, quae isdem ad arbitrium inposita sunt conditoris, primigenia tamen nomina non amittunt, quae eis Assyria lingua institutores veteres indiderunt.
+
+Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris incertus agitare quaedam conducentia saluti suae per itinera conaretur, remoti sunt omnes de industria milites agentes in civitatibus perviis.
+
+Quis enim aut eum diligat quem metuat, aut eum a quo se metui putet? Coluntur tamen simulatione dumtaxat ad tempus. Quod si forte, ut fit plerumque, ceciderunt, tum intellegitur quam fuerint inopes amicorum. Quod Tarquinium dixisse ferunt, tum exsulantem se intellexisse quos fidos amicos habuisset, quos infidos, cum iam neutris gratiam referre posset.
+</p>
+</div>
+<div class="row d-flex justify-content-evenly">
+    <div class="col-sm-4"><img src="https://31ukq.codesandbox.io/images/yoga.png" class="img-fluid yogaimg"/></div>
+    <div class="col-sm-4"><img src="fiction.png" class="img-fluid yogaimg"/></div>
+    <div class="col-sm-4"><img src="weather.png" class="img-fluid yogaimg"/></div>
+</div>
+<h1 id="contact">📬 Contact Me</h1>
+<div class="link">
+<a href="mailto:edomm9@gmail.com">edomm9@gmail.com</a>
+<p>Coded by Edom M.</p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
